@@ -1,0 +1,55 @@
+.newsletter {
+  width: 100%;
+  background-color: #3187ed;
+}
+.container-nl {
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  padding: 2rem 0;
+}
+.mail {
+  font-size: 4rem;
+  color: #ffffff5e;
+}
+.mail-info {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  color: white;
+}
+.mail-inv p {
+  max-width: 663px;
+  line-height: 32px;
+  font-size: 1rem;
+}
+.input-container {
+  width: 90%;
+  max-width: 653px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding-top: 0.2rem;
+  padding-right: 0.25rem;
+}
+input,
+button {
+  border-style: none;
+  font-size: 1.2rem;
+}
+button {
+  background-color: #4d4d4d;
+  width: 187px;
+  height: 60px;
+  color: white;
+  border-radius: 1rem;
+  margin-right: 0.25rem;
+}
+input {
+  margin-left: 1.5rem;
+}

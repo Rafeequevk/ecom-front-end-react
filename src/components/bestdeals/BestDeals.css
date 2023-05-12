@@ -1,0 +1,53 @@
+.best-deals {
+  display: block;
+  width: 100%;
+  margin: 1.5rem auto;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1320px;
+  padding: 0.25rem;
+  align-items: center;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #3187ed;
+  font-weight: 600;
+}
+.head h2 {
+  font-size: 1.75rem;
+}
+.cards {
+  display: flex;
+}
+.card {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  flex: 0 0 calc(33.333% - 2rem);
+}
+.card-info p {
+  margin: 0.5rem 0;
+  /* display: flex;
+  flex-direction: column; */
+}
+.card-img {
+  width: 117px;
+  height: 139px;
+}
+
+.card-img img {
+  width: 100%;
+  margin: 1rem 0;
+}
+.card-title {
+  max-width: 136px;
+  font-size: 1rem;
+  font-weight: 400;
+}

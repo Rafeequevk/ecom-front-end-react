@@ -1,0 +1,17 @@
+.slider {
+  width: 100%;
+  background-color: #fdfdfd;
+}
+.container-slider {
+  margin: 0 auto;
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.slide {
+  width: 1620px;
+  background-color: #01d895;
+  border-radius: 2.5rem;
+  height: 612px;
+}
